@@ -1,0 +1,43 @@
+name: finalprojects_mobileapp
+description: "A new Flutter project."
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+ 
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  assets:
+    - assets/logocy.png
+    - assets/cyrel_banner.png
+    - assets/announcement1.jpg
+    - assets/announcement2.jpg
+    - assets/announcement3.jpg
+    - assets/announcement3.jpg
+  
+  uses-material-design: true
+
+  
+  fonts:
+    - family: SourceSans3
+      fonts:
+        - asset: assets/SourceSans3-Regular.ttf
+         
+ 
